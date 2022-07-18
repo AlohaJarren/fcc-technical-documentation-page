@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Project Technical Documentation Page</title>
     </head>
@@ -30,13 +31,13 @@
                 <header>
                     <h1>Introduction</h1>
                 </header>
-                <p>Python is a high-level, general-purpose and a very popular programming language. 
+                <p class="section-paragraph">Python is a high-level, general-purpose and a very popular programming language. 
                     Python programming language (latest Python 3) is being used in web development, 
                     Machine Learning applications, along with all cutting edge technology in Software Industry. 
                     Python Programming Language is very well suited for Beginners, 
                     also for experienced programmers with other programming languages like C++ and Java.
                 </p>
-                <p>Below are some facts about Python Programming Language:
+                <p class="section-paragraph">Below are some facts about Python Programming Language:
                 </p>
                 <ul>
                     <li>Python is currently the most widely used multi-purpose, high-level programming language.</li>
@@ -49,11 +50,13 @@
                 </ul>
             </section>
             <section class="main-section" id="setup">
-                <header>Setup</header>
-                <p>Here we will be discussing how to get the answer to all questions related to installing Python on Windows/Linux/macOS. 
+                <header>
+                    <h1>Setup</h1>
+                </header>
+                <p class="section-paragraph">Here we will be discussing how to get the answer to all questions related to installing Python on Windows/Linux/macOS. 
                     Python was developed by Guido van Rossum in the early 1990s and its latest version is 3.10.5, we can simply call it Python3. 
                 </p>
-                <p>
+                <p class="section-paragraph">
                     In this Python tutorial on installation and setup, 
                     you'll see how to install Python on 
                     <a href="">Windows</a>, 
@@ -61,7 +64,7 @@
                     <a href="">macOS</a>.
                 </p>
                 <h2>Installing Python on Windows</h2>
-                <p>
+                <p class="section-paragraph">
                     Since windows don't come with Python preinstalled, it needs to be installed explicitly. 
                     Follow the steps below:
                 </p>
@@ -79,11 +82,11 @@
                         Run the Python Installer for how to install python on windows downloads folder (Make sure to mark <b>Add Python 3.10 to PATH</b>).
                     </li>
                 </ol>
-                <p>
+                <p class="section-paragraph">
                     After installation is complete, click on <b>Close</b>. Python is installed!
                 </p>
                 <h2>Installing Python on Linux</h2>
-                <p>
+                <p class="section-paragraph">
                     If Python is not already installed on your Linux system, or you want to install an updated version, follow the steps below:
                 </p>
                 <ol>
@@ -117,7 +120,7 @@
                         <code>>> python3 --version</code>
                     </li>
                 </ol>
-                <p>If the output says Python 3.x, Python 3 has been successfully installed!</p>
+                <p class="section-paragraph">If the output says Python 3.x, Python 3 has been successfully installed!</p>
                 <h2>Installing Python on MacOS</h2>
                 <ol>
                     <li>
@@ -135,13 +138,13 @@
                         </code>
                     </li>
                 </ol>
-                <p>Python is installed on your computer!</p>
+                <p class="section-paragraph">Python is installed on your computer!</p>
             </section>
             <section class="main-section" id="getting_started">
                 <header>
                     <h1>Getting Started</h1>
                 </header>
-                <p>In order to start Python programming, we need to have an interpreter to interpret and run our programs. 
+                <p class="section-paragraph">In order to start Python programming, we need to have an interpreter to interpret and run our programs. 
                     There are certain online interpreters like <a href="https://ide.geeksforgeeks.org/">https://ide.geeksforgeeks.org/</a> that can be used to run Python programs without installing an interpreter. 
                     Python IDLE is the Python Integration Development Environment (IDE) that comes with the Python distribution by default and helps you experiment with Python quickly in a trial-and-error manner. 
                     For each operating system:
@@ -165,7 +168,7 @@
                 <header>
                     <h1>Hello World</h1>
                 </header>
-                <p>The following shows you step by step how to launch the Python IDLE and use it to execute the Python code:</p>
+                <p class="section-paragraph">The following shows you step by step how to launch the Python IDLE and use it to execute the Python code:</p>
                 <ol>
                     <li>
                         First, launch the Python IDLE program. A new Python Shell window will display as follows:
@@ -180,7 +183,7 @@
                         <code>>> print('Hello, World!')</code>
                     </li>
                 </ol>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>Hello, World!</code>
                 </p>
@@ -189,7 +192,7 @@
                 <header>
                     <h1>Python Keywords</h1>
                 </header>
-                <p>Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier. 
+                <p class="section-paragraph">Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier. 
                     Let's check each one:
                 </p>
                 <ul>
@@ -234,12 +237,12 @@
                 <header>
                     <h1>Statements</h1>
                 </header>
-                <p>Instructions written in the source code for execution are called statements. 
+                <p class="section-paragraph">Instructions written in the source code for execution are called statements. 
                     There are different types of statements in the Python programming language like Assignment statements, Conditional statements, Looping statements, etc. 
                     These all help the user to get the required output. 
                     For example, <span>n = 50</span> is an assignment statement.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     Multi-Line Statements: Statements in Python can be extended to one or more lines using 
                     <span>parentheses ()</span>, <span>braces {}</span>, <span>square brackets []</span>, <span>semi-colon (;)</span> or <span>continuation character slash (\)</span>.
                 </p>
@@ -248,7 +251,7 @@
                 <header>
                     <h1>Indentation</h1>
                 </header>
-                <p>
+                <p class="section-paragraph">
                     A block is a combination of all these statements. 
                     Block can be regarded as the grouping of statements for a specific purpose. 
                     Most of the programming languages like C, C++, and Java use <span>braces { }</span> to define a block of code. 
@@ -257,13 +260,13 @@
                     All statements with the same distance to the right belong to the same block of code. 
                     If a block has to be more deeply nested, it is simply indented further to the right.
                 </p>
-                <p>To indicate a block of code in Python, you must indent each line of the block by the same whitespace.</p>
+                <p class="section-paragraph">To indicate a block of code in Python, you must indent each line of the block by the same whitespace.</p>
             </section>
             <section class="main-section" id="variables">
                 <header>
                     <h1>Variables</h1>
                 </header>
-                <p>A variable is a named location used to store data in the memory. 
+                <p class="section-paragraph">A variable is a named location used to store data in the memory. 
                     It is helpful to think of variables as a container that holds data that can be changed later in the program.
                 </p>
                 <h2>Methods to assign values to variables</h2>
@@ -315,27 +318,29 @@
                 <header>
                     <h1>Constants</h1>
                 </header>
-                <p>A constant is a type of variable whose value cannot be changed. 
+                <p class="section-paragraph">A constant is a type of variable whose value cannot be changed. 
                     It is helpful to think of constants as containers that hold information which cannot be changed later.
                 </p>
-                <p>In Python, constants are usually declared and assigned in a module. 
+                <p class="section-paragraph">In Python, constants are usually declared and assigned in a module. 
                     Inside the module, constants are written in all capital letters and underscores separating the words. 
                     Example below:
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>import constant</span>
-                    <span>&nbsp;</span> <!-- &nbsp; is a Single Space-->
+                    <span>&nbsp;</span> <!-- &nbsp; is a Single Space; source: https://www.geeksforgeeks.org/how-to-insert-spaces-tabs-in-text-using-html-css/-->
                     <span>>> PI = 3.14</span>
                     <span>>> GRAVITY = 9.8</span>
                     <span>>> print(constant.PI)</span>
                     <span>>> print(constant.GRAVITY)</span>
                 </code>
-                <b>Output:</b>
-                <code>
-                    <span>3.14</span>
-                    <span>9.8</span>
-                </code>
-                <p><b><i>Note:</i></b> In reality, we don't use constants in Python. 
+                <p class="section-paragraph">
+                    <b>Output:</b>
+                    <code>
+                        <span>3.14</span>
+                        <span>9.8</span>
+                    </code>
+                </p>
+                <p class="section-paragraph"><b><i>Note:</i></b> In reality, we don't use constants in Python. 
                     Naming them in all capital letters is a convention to separate them from variables, however, it does not actually prevent reassignment.
                 </p>
             </section>
@@ -343,13 +348,13 @@
                 <header>
                     <h1>Operators</h1>
                 </header>
-                <p>
+                <p class="section-paragraph">
                     Python Operators in general are used to perform operations on values and variables. 
                     These are standard symbols used for the purpose of logical and arithmetic operations. 
                     Following, we will look into different types of Python operators.
                 </p>
                 <h2>Arithmetic Operators</h2>
-                <p>Arithmetic operators are used to performing mathematical operations like addition, subtraction, multiplication, and division.</p>
+                <p class="section-paragraph">Arithmetic operators are used to performing mathematical operations like addition, subtraction, multiplication, and division.</p>
                 <table>
                     <tbody>
                         <tr>
@@ -387,7 +392,7 @@
                     </tbody>
                 </table>
                 <h2>Comparison Operators</h2>
-                <p>Comparison of Relational operators compares the values. 
+                <p class="section-paragraph">Comparison of Relational operators compares the values. 
                     It either returns True or False according to the condition.
                 </p>
                 <table>
@@ -431,7 +436,7 @@
                     </tbody>
                 </table>
                 <h2>Logical Operators</h2>
-                <p>Logical operators perform Logical AND, Logical OR, and Logical NOT operations. 
+                <p class="section-paragraph">Logical operators perform Logical AND, Logical OR, and Logical NOT operations. 
                     It is used to combine conditional statements.
                 </p>
                 <table>
@@ -455,7 +460,7 @@
                     </tbody>
                 </table>
                 <h2>Bitwise Operators</h2>
-                <p>Bitwise operators act on bits and perform the bit-by-bit operations. These are used to operate on binary numbers.</p>
+                <p class="section-paragraph">Bitwise operators act on bits and perform the bit-by-bit operations. These are used to operate on binary numbers.</p>
                 <table>
                     <tbody>
                         <tr>
@@ -489,7 +494,7 @@
                     </tbody>
                 </table>
                 <h2>Assignment Operators</h2>
-                <p>Assignment operators are used to assign values to the variables.</p>
+                <p class="section-paragraph">Assignment operators are used to assign values to the variables.</p>
                 <table>
                     <tbody>
                         <tr>
@@ -551,7 +556,7 @@
                     </tbody>
                 </table>
                 <h2>Identity Operators</h2>
-                <p>
+                <p class="section-paragraph">
                     Identity operators are used to check if two values are located on the same part of the memory. 
                     Two variables that are equal do not imply that they are identical.
                 </p>
@@ -572,7 +577,7 @@
                     </tbody>
                 </table>
                 <h2>Membership Operators</h2>
-                <p>Membership operators are used to test whether a value or variable is in a sequence.</p>
+                <p class="section-paragraph">Membership operators are used to test whether a value or variable is in a sequence.</p>
                 <table>
                     <tbody>
                         <tr>
@@ -594,22 +599,22 @@
                 <header>
                     <h1>Data Types</h1>
                 </header>
-                <p>
+                <p class="section-paragraph">
                     Every value in Python has a datatype. 
                     Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
                     There are various data types in Python. 
                     Some of the important types are listed below:
                 </p>
                 <h2>Python Numbers</h2>
-                <p>
+                <p class="section-paragraph">
                     Integers, floating point numbers and complex numbers fall under Python numbers category. 
                     They are defined as <span>int</span>, <span>float</span> and <span>complex</span> classes in Python.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     We can use the <span>type()</span> function to know which class a variable or a value belongs to. 
                     Similarly, the <span>isinstance()</span> function is used to check if an object belongs to a particular class.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>>> a = 5</span>
                     <span>>> print(a, "is of type", type(a))</span>
                     <span>>> a = 2.0</span>
@@ -617,7 +622,7 @@
                     <span>>> a = 1+2j</span>
                     <span>>> print(a, "is complex number?", isinstance(1+2j,complex))</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>
                         <span>5 is of type &lt;class 'int'&gt;</span>
@@ -625,36 +630,36 @@
                         <span>(1+2j) is complex number? True</span>
                     </code>
                 </p>
-                <p>Integers can be of any length, it is only limited by the memory available.</p>
-                <p>
+                <p class="section-paragraph">Integers can be of any length, it is only limited by the memory available.</p>
+                <p class="section-paragraph">
                     A floating-point number is accurate up to 15 decimal places. 
                     Integer and floating points are separated by decimal points. 
                     <span>1</span> is an integer, <span>1.0</span> is a floating-point number.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     Complex numbers are written in the form, <span>x + yj</span>, where <span>x</span> is the real part and <span>y</span> is the imaginary part.
                 </p>
                 <h2>Python Lists</h2>
-                <p>
+                <p class="section-paragraph">
                     Lists are one of the most powerful tools in python. 
                     They are just like the arrays declared in other languages. 
                     But the most powerful thing is that list need not be always homogeneous. 
                     A single list can contain strings, integers, as well as objects. Lists can also be used for implementing stacks and queues. 
                     Lists are mutable, i.e., they can be altered once declared.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     Declaring a list is pretty straight forward. 
                     Items separated by commas are enclosed within <span>brackets [ ]</span>. 
                     The index starts from <span>0 (zero)</span> in Python.
                 </p>
-                <code>>> t = (5,'program', 1+3j)</code>
+                <code class="code-indent-fix">>> t = (5,'program', 1+3j)</code>
                 <h2>Python Strings</h2>
-                <p>
+                <p class="section-paragraph">
                     A string is a sequence of characters. 
                     It can be declared in python by using <span>double-quotes ("")</span>. 
                     Strings are immutable, i.e., they cannot be changed.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>
                         <span>This is a string</span>
@@ -663,67 +668,67 @@
                     </code>
                 </p>
                 <h2>Python Set</h2>
-                <p>
+                <p class="section-paragraph">
                     Set is an unordered collection of unique items. 
                     Set is defined by values separated by comma inside braces <span>{ }</span>. 
                     Items in a set are not ordered.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set. 
                     We can perform set operations like union, intersection on two sets. 
                     Sets have unique values. 
                     They eliminate duplicates.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     Set items cannot be accessed by referring to an index, since sets are unordered the items has no index. 
                     But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>>> a = {5,2,3,1,4}</span>
                     <span>>> print("a = ", a)</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>a = {1, 2, 3, 4, 5}</code>
                 </p>
                 <h2>Python Dictionary</h2>
-                <p>
+                <p class="section-paragraph">
                     Dictionary is an unordered collection of key-value pairs. 
                     It is generally used when we have a huge amount of data. 
                     Dictionaries are optimized for retrieving data. 
                     We must know the key to retrieve the value.
                 </p>
-                <p>Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.</p>
-                <p>In Python, dictionaries are defined within <span>braces {}</span> with each item being a pair in the form <span>key: value</span>. 
+                <p class="section-paragraph">Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.</p>
+                <p class="section-paragraph">In Python, dictionaries are defined within <span>braces {}</span> with each item being a pair in the form <span>key: value</span>. 
                     Key and value can be of any type. 
                     We use key to retrieve the respective value. 
                     But not the other way around.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>>> d = {1: 'value', 'key': 2}</span>
                     <span>>> print("d[1] = ", d[1])</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>d[1] = value</code>
                 </p>
                 <h2>Python Arrays</h2>
-                <p>
+                <p class="section-paragraph">
                     An array is a collection of items stored at contiguous memory locations. 
                     The idea is to store multiple items of the same type together. 
                     This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
                 </p>
-                <p>
+                <p class="section-paragraph">
                     Array can be handled in Python by a module named array. 
                     They can be useful when we have to manipulate only a specific data type values. 
                     A user can treat lists as arrays. 
                     However, user cannot constraint the type of elements stored in a list. 
                     If you create arrays using the array module, all elements of the array must be of the same type.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     In order to access the array items refer to the index number. Use the index operator <span>[ ]</span> to access an item in a array. The index must be an <span>integer</span>.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span># importing array module</span>
                     <span>import array as arr</span>
                     <span>&nbsp;</span>
@@ -732,7 +737,7 @@
                     <span># accessing element of array</span>
                     <span>>> print("Access element is: ", a[0])</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>Access element is: 1</code>
                 </p>
@@ -741,42 +746,42 @@
                 <header>
                     <h1>Functions</h1>
                 </header>
-                <p>
+                <p class="section-paragraph">
                     Python Functions are very easy to write in python and all non-trivial programs will have functions. 
                     Function names have the same rules as variable names.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     The function is a block of related statements designed to perform a computational, logical, or evaluative task. 
                     The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can do the function calls to reuse code contained in it over and over again. 
                 </p>
                 <h2>Creating a Function</h2>
-                <p>We can create a Python function using the <span>def</span> keyword.</p>
-                <code>
+                <p class="section-paragraph">We can create a Python function using the <span>def</span> keyword.</p>
+                <code class="code-indent-fix">
                     <span>def fun():</span>
                     <span>&emsp; print("Hello, World!")</span> <!-- &emsp; is a 4 space tab -->
                 </code>
-                <p>After creating a function we can call it by using the name of the function followed by parenthesis containing parameters of that particular function.</p>
-                <code>
+                <p class="section-paragraph">After creating a function we can call it by using the name of the function followed by parenthesis containing parameters of that particular function.</p>
+                <code class="code-indent-fix">
                     <span>def fun():</span>
                     <span>&emsp; print("Hello, World!")</span>
                     <span>&nbsp;</span>
                     <span>fun()</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>Hello, World!</code>
                 </p>
-                <p><b><i>Note:</i></b> In python, the function definition should always be present before the function call. Otherwise, we will get an error.</p>
+                <p class="section-paragraph"><b><i>Note:</i></b> In python, the function definition should always be present before the function call. Otherwise, we will get an error.</p>
                 <h2>Arguments of a Function</h2>
-                <p>Arguments are the values passed inside the parenthesis of the function. A function can have any number of arguments separated by a comma.</p>
-                <p>Python supports various types of arguments that can be passed at the time of the function call such as: default, keyword or variable-length.</p>
+                <p class="section-paragraph">Arguments are the values passed inside the parenthesis of the function. A function can have any number of arguments separated by a comma.</p>
+                <p class="section-paragraph">Python supports various types of arguments that can be passed at the time of the function call such as: default, keyword or variable-length.</p>
                 <h2>Docstring</h2>
-                <p>
+                <p class="section-paragraph">
                     The first string after the function is called the Document string or Docstring in short. 
                     This is used to describe the functionality of the function. 
                     The use of docstring in functions is optional but it is considered a good practice.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>def greet(name):</span>
                     <span>&emsp;"""</span>
                     <span>&emsp;This function greets to</span>
@@ -786,47 +791,47 @@
                     <span>&emsp;print("Hello, " + name + ". Good morning!")</span>
                 </code>
                 <h2>The return statement</h2>
-                <p>
+                <p class="section-paragraph">
                     The function return statement is used to exit from a function and go back to the function caller and return the specified value or data item to the caller. 
                     It can consist of a <span>variable</span>, an <span>expression</span>, or a <span>constant</span> which is returned to the end of the function execution. 
                     If none of the above is present with the return statement a None object is returned.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>def square_value(num):</span>
                     <span>&emsp;return num**2</span>
                     <span>&nbsp;</span>
                     <span>>> print(square_value(2))</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>4</code>
                 </p>
                 <h2>Scope and Lifetime of variables</h2>
-                <p>
+                <p class="section-paragraph">
                     Scope of a variable is the portion of a program where the variable is recognized. 
                     Parameters and variables defined inside a function are not visible from outside the function. Hence, they have a local scope.
                 </p>
-                <p>
+                <p class="section-paragraph">
                     The lifetime of a variable is the period throughout which the variable exists in the memory. 
                     The lifetime of variables inside a function is as long as the function executes. 
                     They are destroyed once we return from the function. 
                     Hence, a function does not remember the value of a variable from its previous calls.
                 </p>
                 <h2>Anonymous functions</h2>
-                <p>
+                <p class="section-paragraph">
                     In Python, an anonymous function means that a function is without a name. 
                     As we already know the def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
                 </p>
-                <code>
+                <code class="code-indent-fix">
                     <span>cube_v2 = lambda x : x*x*x</span>
                     <span>>> print(cube_v2(7))</span>
                 </code>
-                <p>
+                <p class="section-paragraph">
                     <b>Output:</b>
                     <code>343</code>
                 </p>
                 <h2>Python Function within Functions</h2>
-                <p>
+                <p class="section-paragraph">
                     A function that is defined inside another function is known as the inner function or nested function. 
                     Nested functions are able to access variables of the enclosing scope. 
                     Inner functions are used so that they can be protected from everything happening outside the function.

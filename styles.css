@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#navbar {
+    position: fixed;
+    width: 24%;
+    height: 100%;
+    overflow: none;
+    border-right-style: solid;
+    border-color: rgba(10, 186, 181, 0.1);
+}
+
+#navbar header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    all: unset;
+}
+
+#navbar li {
+    padding: .7em 0;
+    padding-left: 1.5em;
+    font-size: 1.5em;
+}
+
+#navbar li:hover {
+    width: 100%;
+    background-color: rgba(10, 186, 181, 0.1);
+}
+
+#main-doc {
+    width: 72%;
+    margin-left: auto; /*https://stackoverflow.com/questions/22429003/how-to-right-align-flex-item*/
+    margin-right: 2%;
+    font-size: 1.2em;
+}
+
+
+#main-doc h1 {
+    padding: 1em 0;
+    font-size: 2em;
+}
+
+#main-doc h2 {
+    padding: 1em 0;
+    font-size: 1.3em;
+}
+
+#main-doc h2
+{
+    padding-left: 2em;
+}
+
+.section-paragraph {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.section-paragraph,
+table {
+    padding-left: 2.7em;
+}
+
+.code-indent-fix {
+    margin-left: 3.2em;
+}
+
+#main-doc ol,
+#main-doc ul {
+    padding-left: 5em;
+}
+
+code {
+    display: block;
+    width: 50%;
+    background-color: rgba(10, 186, 181, 0.1);
+    padding: .6em .1em;
+    border-radius: .3em;
+}
+
+a:not(#navbar a) {
+    all: unset;
+    color: #0ABAB5;
+}
+
+a:not(#navbar a):hover {
+    background-color: rgba(10, 186, 181, 0.2);
+}
+
+table th {
+    background-color: rgba(10, 186, 181, 0.1);
+}
+
+code span {
+    display: block;
+    padding: .3em .1em;
+}
+
+.section-paragraph span:not(.section-paragraph code span){
+    border-style: solid;
+    border-width: .1em;
+    border-radius: .2em;
+    border-color: #0ABAB5;
+}
