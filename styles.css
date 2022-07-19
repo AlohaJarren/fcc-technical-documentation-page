@@ -138,3 +138,41 @@ code span {
     border-radius: .2em;
     border-color: #0ABAB5;
 }
+
+@media screen and (max-width: 810px) {
+    #navbar {
+        font-size: .9em;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    #main-doc {
+        padding-left: 2%;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    #navbar {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    #navbar {
+        font-size: .4em;
+    }
+
+    #main-doc {
+        font-size: .55em;
+    }
+    
+}
+
+@media screen and (max-width: 314px) {
+    #navbar {
+        font-size: .3em;
+    }
+    
+}
